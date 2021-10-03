@@ -5,7 +5,8 @@ import '../components/mobile-menu.js';
 import { home1 }from '../components/home1.js'
 import { homeInit } from '../components/homeInit.js';
 import { personajes} from '../components/personajes.js';
-import { homeAmbientes } from '../components/ambientes.js'
+import { homeAmbientes } from '../components/ambientes.js';
+import { stage_tar } from '../components/stage1.js';
 
 
 export function renderHome($containerGeneral){
@@ -34,6 +35,15 @@ export function renderHome($containerGeneral){
         console.log(x)
 //        console.log(name1);
         document.getElementById("name_per").innerHTML=x;
+        document.getElementById("image_astro").setAttribute('src','/images/joeM.png');
+
+        let cambio_ambiente1= document.querySelector('.btn_tarjetas');
+        cambio_ambiente1.onclick= function(){
+        document.querySelector(".home_am").style.display = "none";
+        $containerGeneral.innerHTML +=stage_tar();
+       }
+
+
 
       }
 
@@ -45,7 +55,15 @@ export function renderHome($containerGeneral){
         console.log(x)
 //        console.log(name1);
         document.getElementById("name_per").innerHTML=x;
+        document.getElementById("image_astro").setAttribute('src','/images/liliM.png');
+
         
+        let cambio_ambiente1= document.querySelector('.btn_tarjetas');
+        cambio_ambiente1.onclick= function(){
+        document.querySelector(".home_am").style.display = "none";
+        $containerGeneral.innerHTML +=stage_tar();
+       }
+
       }
 
       let cambio_stage_astro3 = document.querySelector('.btn_rover');
@@ -56,11 +74,20 @@ export function renderHome($containerGeneral){
         console.log(x)
 //        console.log(name1);
         document.getElementById("name_per").innerHTML=x;
+        document.getElementById("image_astro").setAttribute('src','/images/roverM.png');
+
         
+        let cambio_ambiente1= document.querySelector('.btn_tarjetas');
+        cambio_ambiente1.onclick= function(){
+        document.querySelector(".home_am").style.display = "none";
+        $containerGeneral.innerHTML +=stage_tar();
+       }
+
+
       }
 
-
-
+      
+     
 
   //   function MyTest() {
   //     document.getElementById("myModal").style.display = "none";

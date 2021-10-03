@@ -30,13 +30,14 @@ export function personajes() {
         margin: 0;
     }
     #astro_joe_name{
-        width:25vw;
+        width:20vw;
         height: 10vh;
         text-align:center;
         padding-top:2vh;
         margin:0 0 1vh 0;
         font-size:1.5em;
         color: #FFFFFF;
+        font-weight: 500;
     }
     .image_principal{
         position:absolute;
@@ -67,13 +68,14 @@ export function personajes() {
         margin: 0;
     }
     #astro_lili_name{
-        width:25vw;
+        width:20vw;
         height: 10vh;
         text-align:center;
         padding-top:2vh;
         margin:0 0 1vh 0;
         font-size:1.5em;
         color: #FFFFFF;
+        font-weight: 500;
     }
     .image_principal2{
         position:absolute;
@@ -104,13 +106,14 @@ export function personajes() {
         margin: 0;
     }
     #astro_rover_name{
-        width:25vw;
+        width:20vw;
         height: 10vh;
         text-align:center;
         padding-top:2vh;
         margin:0 0 1vh 0;
         font-size:1.5em;
         color: #FFFFFF;
+        font-weight: 500;
     }
     .image_principal3{
         position:absolute;
