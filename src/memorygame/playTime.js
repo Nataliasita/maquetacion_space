@@ -8,6 +8,7 @@ export function autoPlay(){
     btnplay.addEventListener('click', () => {
         startTime();
         memoryGame.generateClicks();
+        
     });
     
 

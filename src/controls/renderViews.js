@@ -48,8 +48,21 @@ export function renderHome($containerGeneral){
           function r($containerGeneral){
             document.getElementById('root').style.display ='block';
             document.querySelector('.bigContainer').style.display = "none";
+            document.getElementById("playerAvatar").setAttribute('src','/images/media_joe.png');
+            document.getElementById("playerName").innerHTML=x;
           }
           r();
+                    function MyTest2() {
+              document.getElementById("myModal1").style.display = "none";
+              setTimeout(function() {
+                  document.getElementById("myModal1").style.display = "block";
+              }, 0);
+             
+          }
+          MyTest2();
+          
+         
+
        }
 
 

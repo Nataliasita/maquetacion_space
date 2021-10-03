@@ -25,7 +25,7 @@ export function homeInit() {
         height: 12vh;
         width: 18vw;
         bottom: 10vh;
-        left:42vw;
+        left:41vw;
         border-radius: 70px;
         background:none;
         color:#FFFFFF;
@@ -34,6 +34,11 @@ export function homeInit() {
         border-width:4px;
         font-family: 'Orbitron', sans-serif;
         font-weight: 800;
+    }
+    .btn_init:hover{
+        background:#ff7f27;
+        bottom: 11vh;
+        left:41.2vw;
     }
  </style>
 

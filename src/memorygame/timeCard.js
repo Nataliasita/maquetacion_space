@@ -13,6 +13,19 @@ export function startTime() {
     seconds++;
     let secs = seconds;
     let mins = 0;
+    
+    function MyTest1() {
+      document.getElementById("myModal1").style.display = "none";
+      setTimeout(function() {
+          document.getElementById("myModal1").style.display = "none";
+          var close = document.getElementById("btnPlay");
+          close.onclick = function() {
+              myModal1.style.display = "none";
+          }
+      }, 0);
+     
+  }
+  MyTest1();
 
     while (secs >= 60) {
       mins++;

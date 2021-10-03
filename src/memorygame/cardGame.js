@@ -18,6 +18,7 @@ const cardGame = {
             <!-- Rotating card -->
             
             <div class="card-wrapper">
+        
                 <div id="card${i}" class="card" >
             
                     <!-- Front Side -->
@@ -25,7 +26,7 @@ const cardGame = {
         
                     <!-- Avatar -->
                         <div class="avatar">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdbO7aeUB3HIVp4FroqJBFY0iLz2VEhN8nLvIUgpgVKYKQBMY&s" width:"100%">
+                            <img id="fnd_card" src="images/fnd_card_t1.png" >
                         </div>
                     </div>
                     <!-- Front Side -->
@@ -55,7 +56,7 @@ const cardGame = {
             let card = document.getElementById("card" + i);
             card.addEventListener('click', () => {
                 if (card.style.transform != "rotateY(180deg)") {
-                    card.style.transform = "rotateY(180deg)"
+                    card.style.transform = "rotateY(180deg)",
                     cardGame.selections.push(i);
                 }
                 if (cardGame.selections.length == 2) {

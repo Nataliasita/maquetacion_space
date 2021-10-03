@@ -13,7 +13,7 @@ const data = [
   
     { "id": 7, "name": "ácido sulfhídrico", "url": "../memoryGame/assets/images1/acido sulfurico.jpg" },
   
-    { "id": 8, "name": "temperaturas", "url": "../memoryGame/assets/images1/temperaturas.jpg" },
+    { "id": 8, "name": "temperaturas extremas", "url": "../memoryGame/assets/images1/temperaturas.jpg" },
   
     { "id": 9, "name": "hidrógeno molecular", "url": "../memoryGame/assets/images1/hidrogenoMolecular.jpg" },
   
