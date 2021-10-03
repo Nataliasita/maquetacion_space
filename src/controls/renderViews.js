@@ -40,8 +40,20 @@ export function renderHome($containerGeneral){
         let cambio_ambiente1= document.querySelector('.btn_tarjetas');
         cambio_ambiente1.onclick= function(){
         document.querySelector(".home_am").style.display = "none";
-        $containerGeneral.innerHTML +=stage_tar();
+        // $containerGeneral.innerHTML +=stage_tar();
+        // var content_target = document.querySelector(".home_p");
+//        content_target.insertAdjacentHTML('afterbegin','<div id="root"></div>');
+//        var clon = document.getElementById('root').cloneNode(true);
+//        clon.setAttribute('style',"display: block;")
+          function r($containerGeneral){
+            document.getElementById('root').style.display ='block';
+            document.querySelector('.bigContainer').style.display = "none";
+          }
+          r();
        }
+
+
+    
 
 
 

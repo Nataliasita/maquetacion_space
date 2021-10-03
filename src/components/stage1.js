@@ -7,13 +7,16 @@ export function stage_tar() {
         position:absolute;
         background:blue;
         overflow-y: hidden;
-        
     }
+    
  </style>
 
 
-<div class="home_p">
-   
+<div class="home_p" id="home_p">
+
+
+
+
 </div>
         `;
     return container;
