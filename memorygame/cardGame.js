@@ -60,7 +60,7 @@ const cardgame = {
                     cardgame.selections.push(i);
                 }
                 if (cardgame.selections.length == 2) {
-                    cardgame.deselect(cardGame.selections);
+                    cardgame.deselect(cardgame.selections);
                     cardgame.selections = [];
                 }
               });

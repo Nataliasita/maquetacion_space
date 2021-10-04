@@ -13,7 +13,7 @@ window.addEventListener('load', () => {
     memorygame.btnPlay();
 
     // if(startGame){
-    //     // memoryGame.generateClicks();
+    //     // memorygame.generateClicks();
     // }
 
 });

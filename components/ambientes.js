@@ -85,9 +85,9 @@ export function homeAmbientes() {
         width: 24vw;
         height: 33vh;
         position:absolute;
-        background-image: url('./images/parejas.png');
+        background-image: url('./images/imgeuropa.png');
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% 120%;
         top:30vh;
         left:39vw;
         display:flex;
@@ -131,7 +131,7 @@ export function homeAmbientes() {
         width: 24vw;
         height: 33vh;
         position:absolute;
-        background-image: url('./images/parejas.png');
+        background-image: url('./images/puzzle.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         bottom:14vh;
