@@ -6,7 +6,7 @@ import { home1 }from '../components/home1.js'
 import { homeInit } from '../components/homeInit.js';
 import { personajes} from '../components/personajes.js';
 import { homeAmbientes } from '../components/ambientes.js';
-import { stage_tar } from '../components/stage1.js';
+
 
 
 export function renderHome($containerGeneral){
@@ -65,12 +65,53 @@ export function renderHome($containerGeneral){
 
        }
 
+       // cambio Ambiente 3 
+
+       let cambio_ambiente3= document.querySelector('.btn_puzzle');
+       cambio_ambiente3.onclick= function(){
+       document.querySelector(".home_am").style.display = "none";
+      
+       function r($containerGeneral){
+        document.querySelector('.container').style.display ='block';
+        document.querySelector('.bigContainer').style.display = "none";
+        
+      }
+      r();
+              
+       
+       // var content_target = document.querySelector(".home_p");
+//        content_target.insertAdjacentHTML('afterbegin','<div id="root"></div>');
+//        var clon = document.getElementById('root').cloneNode(true);
+//        clon.setAttribute('style',"display: block;")
+        //  function r($containerGeneral){
+        //    document.getElementById('root').style.display ='block';
+        //    document.querySelector('.bigContainer').style.display = "none";
+        //    document.getElementById("playerAvatar").setAttribute('src','/images/media_joe.png');
+        //    document.getElementById("playerName").innerHTML=x;
+        //  }
+        //  r();
+        //            function MyTest2() {
+        //      document.getElementById("myModal1").style.display = "none";
+        //      setTimeout(function() {
+        //          document.getElementById("myModal1").style.display = "block";
+        //      }, 0);
+            
+        //  }
+        //  MyTest2();
+         
+        
+
+      }
+
 
     
 
 
 
       }
+
+///lili
+
 
       let cambio_stage_astro2 = document.querySelector('.btn_lili');
       cambio_stage_astro2.onclick= function(){
@@ -86,7 +127,27 @@ export function renderHome($containerGeneral){
         let cambio_ambiente1= document.querySelector('.btn_tarjetas');
         cambio_ambiente1.onclick= function(){
         document.querySelector(".home_am").style.display = "none";
-        $containerGeneral.innerHTML +=stage_tar();
+        //        $containerGeneral.innerHTML +=stage_tar();
+        function r($containerGeneral){
+          document.getElementById('root').style.display ='block';
+          document.querySelector('.bigContainer').style.display = "none";
+          document.getElementById("playerAvatar").setAttribute('src','/images/media_lili.png');
+          document.getElementById("playerName").innerHTML=x;
+        }
+        r();
+                  function MyTest2() {
+            document.getElementById("myModal1").style.display = "none";
+            setTimeout(function() {
+                document.getElementById("myModal1").style.display = "block";
+            }, 0);
+          
+        }
+        MyTest2();
+
+        
+
+
+
        }
 
       }
@@ -105,7 +166,29 @@ export function renderHome($containerGeneral){
         let cambio_ambiente1= document.querySelector('.btn_tarjetas');
         cambio_ambiente1.onclick= function(){
         document.querySelector(".home_am").style.display = "none";
-        $containerGeneral.innerHTML +=stage_tar();
+//        $containerGeneral.innerHTML +=stage_tar();
+
+        function r($containerGeneral){
+          document.getElementById('root').style.display ='block';
+          document.querySelector('.bigContainer').style.display = "none";
+          document.getElementById("playerAvatar").setAttribute('src','/images/media_rover.png');
+          document.getElementById("playerName").innerHTML=x;
+        }
+        r();
+                  function MyTest2() {
+            document.getElementById("myModal1").style.display = "none";
+            setTimeout(function() {
+                document.getElementById("myModal1").style.display = "block";
+            }, 0);
+          
+        }
+        MyTest2();
+
+
+
+
+
+
        }
 
 

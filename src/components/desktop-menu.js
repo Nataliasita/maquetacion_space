@@ -87,9 +87,9 @@ template.innerHTML = `
 </style>
 <header class="header">
 <ul class="list">
-<li><a id ="workH" href="#work">Work</a></li>
-<li><a id ="homeH" href="#home">Home</a></li>
-<li><a id="contactH" href="#contact">Contacto</a></li>
+  <li><a id ="workH" href="#work"></a></li>
+  <li><a id ="homeH" href="#home"></a></li>
+  <li><a id="contactH" href="#contact"></a></li>
 </ul>
 </header>
 `;

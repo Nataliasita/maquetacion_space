@@ -40,11 +40,14 @@ export function homeAmbientes() {
         width: 24vw;
         height: 33vh;
         position:absolute;
-        background-color:red;
+        background-image: url('./images/parejas.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
         bottom:14vh;
         left:4vw;
         display:flex;
         border-radius:10px;
+        cursor: pointer;
     }
     .name_amb1{
         bottom:0;
@@ -52,7 +55,7 @@ export function homeAmbientes() {
         width: 24vw;
         top:20vh;
         position:absolute;
-        background-color:#DEDEDE;
+        background-color: rgba(0, 7, 49, 0.644);
         padding:2.5vh 0 0 2vw;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
@@ -60,8 +63,9 @@ export function homeAmbientes() {
     .ambiente_tarjetas:hover{
         width: 24vw;
         height: 33vh;
-        bottom:16vh;
-        cursor:pointer;
+        bottom:16.5vh;
+        cursor: pointer;
+        box-shadow: rgba(240, 211, 46, 0.4) -5px 5px, rgba(240, 221, 46, 0.3) -10px 10px, rgba(240, 227, 46, 0.2) -15px 15px, rgba(240, 221, 46, 0.1) -20px 20px, rgba(240, 221, 46, 0.05) -25px 25px;
     }
     .btn_tarjetas{
         width: 24vw;
@@ -71,9 +75,103 @@ export function homeAmbientes() {
         bottom:-1vh;
         left:0;
         border-radius:10px;
-        cursor:pointer;
+        border:0;
+    }
+    .btn_tarjetas:hover{
+        cursor: pointer;
     }
 
+    .ambiente_recorrido{
+        width: 24vw;
+        height: 33vh;
+        position:absolute;
+        background-image: url('./images/parejas.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        top:30vh;
+        left:39vw;
+        display:flex;
+        border-radius:10px;
+
+    }
+    .name_amb2{
+        bottom:0;
+        height:10vh;
+        width: 24vw;
+        top:20vh;
+        position:absolute;
+        background-color: rgba(0, 7, 49, 0.644);
+        padding:2.5vh 0 0 4vw;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+    .ambiente_recorrido:hover{
+        width: 24vw;
+        height: 33vh;
+        top:28.5vh;
+        cursor: pointer;
+        box-shadow: rgba(240, 211, 46, 0.4) -5px 5px, rgba(240, 221, 46, 0.3) -10px 10px, rgba(240, 227, 46, 0.2) -15px 15px, rgba(240, 221, 46, 0.1) -20px 20px, rgba(240, 221, 46, 0.05) -25px 25px;
+    }
+    .btn_recorrido{
+        width: 24vw;
+        height: 34vh;
+        position:absolute;
+        background:none;
+        bottom:-1vh;
+        left:0;
+        border-radius:10px;
+        border:0;
+    }
+    .btn_recorrido:hover{
+        cursor: pointer;
+    }
+
+    .ambiente_puzzle{
+        width: 24vw;
+        height: 33vh;
+        position:absolute;
+        background-image: url('./images/parejas.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        bottom:14vh;
+        right:4vw ;
+        display:flex;
+        border-radius:10px;
+
+    }
+    .name_amb3{
+        bottom:0;
+        height:10vh;
+        width: 24vw;
+        top:20vh;
+        position:absolute;
+        background-color: rgba(0, 7, 49, 0.644);
+        padding:2.5vh 0 0 1vw;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+    .ambiente_puzzle:hover{
+        width: 24vw;
+        height: 33vh;
+        bottom:16.5vh;
+        cursor: pointer;
+        box-shadow: rgba(240, 211, 46, 0.4) -5px 5px, rgba(240, 221, 46, 0.3) -10px 10px, rgba(240, 227, 46, 0.2) -15px 15px, rgba(240, 221, 46, 0.1) -20px 20px, rgba(240, 221, 46, 0.05) -25px 25px;
+    }
+    .btn_puzzle{
+        width: 24vw;
+        height: 34vh;
+        position:absolute;
+        background:none;
+        bottom:-1vh;
+        left:0;
+        border-radius:10px;
+        border:0;
+    }
+    .btn_puzzle:hover{
+        cursor: pointer;
+    }
  </style>
 
 
@@ -85,9 +183,25 @@ export function homeAmbientes() {
 
         <div class="ambiente_tarjetas">
 
-            <p class="name_amb1" >Tajetas Explorativas</p>
+            <p class="name_amb1" >Tarjetas Explorativas</p>
             <input class= "btn_tarjetas" type="button" id="stage_1" name="tarjetas" value="">
                 <label for="stage_1"></label>
+        </div>
+
+        <div class="ambiente_recorrido">
+
+            <p class="name_amb2" >Recorrido Jupiter</p>
+            <a href="https://zagu5.github.io/xplorer-jupiter-challengeNasa2021/"></a>
+            <input  type="button" id="stage_2" name="recorrido" value="">
+                <label for="stage_2"></label>
+        </div>
+
+        <div class="ambiente_puzzle">
+
+            <p class="name_amb3" >Rompecabezas Espacial</p>
+           
+            <input class= "btn_puzzle" type="button" id="stage_3" name="rompecabezas" value="">
+                <label for="stage_3"></label>
         </div>
 
 </div>
