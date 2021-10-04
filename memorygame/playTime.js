@@ -1,5 +1,5 @@
-import { startTime } from './timeCard.js';
-import memoryGame from '../memorygame/memoryGame.js'
+import { startTime } from './timecard.js';
+import memorygame from './memorygame.js'
 
 
 export function autoPlay(){
@@ -7,7 +7,7 @@ export function autoPlay(){
     
     btnplay.addEventListener('click', () => {
         startTime();
-        memoryGame.generateClicks();
+        memorygame.generateClicks();
         
     });
     

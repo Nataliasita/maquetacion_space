@@ -35,7 +35,7 @@ export function renderHome($containerGeneral){
         console.log(x)
 //        console.log(name1);
         document.getElementById("name_per").innerHTML=x;
-        document.getElementById("image_astro").setAttribute('src','/images/joeM.png');
+        document.getElementById("image_astro").setAttribute('src','images/joeM.png');
 
         let cambio_ambiente1= document.querySelector('.btn_tarjetas');
         cambio_ambiente1.onclick= function(){
@@ -48,7 +48,7 @@ export function renderHome($containerGeneral){
           function r($containerGeneral){
             document.getElementById('root').style.display ='block';
             document.querySelector('.bigContainer').style.display = "none";
-            document.getElementById("playerAvatar").setAttribute('src','/images/media_joe.png');
+            document.getElementById("playerAvatar").setAttribute('src','images/media_joe.png');
             document.getElementById("playerName").innerHTML=x;
           }
           r();
@@ -86,7 +86,7 @@ export function renderHome($containerGeneral){
         //  function r($containerGeneral){
         //    document.getElementById('root').style.display ='block';
         //    document.querySelector('.bigContainer').style.display = "none";
-        //    document.getElementById("playerAvatar").setAttribute('src','/images/media_joe.png');
+        //    document.getElementById("playerAvatar").setAttribute('src','images/media_joe.png');
         //    document.getElementById("playerName").innerHTML=x;
         //  }
         //  r();
@@ -103,7 +103,7 @@ export function renderHome($containerGeneral){
 
       }
 
-
+ 
     
 
 
@@ -121,7 +121,7 @@ export function renderHome($containerGeneral){
         console.log(x)
 //        console.log(name1);
         document.getElementById("name_per").innerHTML=x;
-        document.getElementById("image_astro").setAttribute('src','/images/liliM.png');
+        document.getElementById("image_astro").setAttribute('src','images/liliM.png');
 
         
         let cambio_ambiente1= document.querySelector('.btn_tarjetas');
@@ -131,7 +131,7 @@ export function renderHome($containerGeneral){
         function r($containerGeneral){
           document.getElementById('root').style.display ='block';
           document.querySelector('.bigContainer').style.display = "none";
-          document.getElementById("playerAvatar").setAttribute('src','/images/media_lili.png');
+          document.getElementById("playerAvatar").setAttribute('src','images/media_lili.png');
           document.getElementById("playerName").innerHTML=x;
         }
         r();
@@ -145,10 +145,27 @@ export function renderHome($containerGeneral){
         MyTest2();
 
         
+        
 
 
 
        }
+       let cambio_ambiente3= document.querySelector('.btn_puzzle');
+      cambio_ambiente3.onclick= function(){
+      document.querySelector(".home_am").style.display = "none";
+     
+      function r($containerGeneral){
+       document.querySelector('.container').style.display ='block';
+       document.querySelector('.bigContainer').style.display = "none";
+       
+     }
+     r();
+    }
+
+
+
+
+
 
       }
 
@@ -160,7 +177,7 @@ export function renderHome($containerGeneral){
         console.log(x)
 //        console.log(name1);
         document.getElementById("name_per").innerHTML=x;
-        document.getElementById("image_astro").setAttribute('src','/images/roverM.png');
+        document.getElementById("image_astro").setAttribute('src','images/roverM.png');
 
         
         let cambio_ambiente1= document.querySelector('.btn_tarjetas');
@@ -171,7 +188,7 @@ export function renderHome($containerGeneral){
         function r($containerGeneral){
           document.getElementById('root').style.display ='block';
           document.querySelector('.bigContainer').style.display = "none";
-          document.getElementById("playerAvatar").setAttribute('src','/images/media_rover.png');
+          document.getElementById("playerAvatar").setAttribute('src','images/media_rover.png');
           document.getElementById("playerName").innerHTML=x;
         }
         r();
@@ -190,7 +207,17 @@ export function renderHome($containerGeneral){
 
 
        }
-
+       let cambio_ambiente3= document.querySelector('.btn_puzzle');
+      cambio_ambiente3.onclick= function(){
+      document.querySelector(".home_am").style.display = "none";
+     
+      function r($containerGeneral){
+       document.querySelector('.container').style.display ='block';
+       document.querySelector('.bigContainer').style.display = "none";
+       
+     }
+     r();
+    }
 
       }
 

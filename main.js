@@ -3,14 +3,14 @@ const content = document.getElementById('root');
 const game = document.getElementById('game');
 const sidebar = document.getElementById('sidebar');
 
-import memoryGame from '../memorygame/memoryGame.js'
+import memorygame from '../memorygame/memorygame.js'
 import data from "../memorygame/data.js"
 
 window.addEventListener('load', () => {
     // let startGame = false;
-    sidebar.innerHTML = memoryGame.createTabGame(data);
-    game.innerHTML = memoryGame.createBoard(data).join(" ");
-    memoryGame.btnPlay();
+    sidebar.innerHTML = memorygame.createTabGame(data);
+    game.innerHTML = memorygame.createBoard(data).join(" ");
+    memorygame.btnPlay();
 
     // if(startGame){
     //     // memoryGame.generateClicks();

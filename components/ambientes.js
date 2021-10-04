@@ -172,6 +172,9 @@ export function homeAmbientes() {
     .btn_puzzle:hover{
         cursor: pointer;
     }
+    #lin{
+        color:white;
+    }
  </style>
 
 
@@ -188,13 +191,15 @@ export function homeAmbientes() {
                 <label for="stage_1"></label>
         </div>
 
+        <a id="lin" href="https://zagu5.github.io/xplorer-jupiter-challengeNasa2021/">
         <div class="ambiente_recorrido">
 
             <p class="name_amb2" >Recorrido Jupiter</p>
-            <a href="https://zagu5.github.io/xplorer-jupiter-challengeNasa2021/"></a>
+            
             <input  type="button" id="stage_2" name="recorrido" value="">
                 <label for="stage_2"></label>
         </div>
+        </a>
 
         <div class="ambiente_puzzle">
 

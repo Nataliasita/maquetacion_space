@@ -1,7 +1,7 @@
-import {resetTime} from './timeCard.js';
+import {resetTime} from './timecard.js';
 
 
-const cardGame = {
+const cardgame = {
 
     
     selections : [],
@@ -57,11 +57,11 @@ const cardGame = {
             card.addEventListener('click', () => {
                 if (card.style.transform != "rotateY(180deg)") {
                     card.style.transform = "rotateY(180deg)",
-                    cardGame.selections.push(i);
+                    cardgame.selections.push(i);
                 }
-                if (cardGame.selections.length == 2) {
-                    cardGame.deselect(cardGame.selections);
-                    cardGame.selections = [];
+                if (cardgame.selections.length == 2) {
+                    cardgame.deselect(cardGame.selections);
+                    cardgame.selections = [];
                 }
               });
         }
@@ -105,4 +105,4 @@ const cardGame = {
     }
 };
 
-export default cardGame;
+export default cardgame;

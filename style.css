@@ -280,10 +280,13 @@ body{
     position: absolute;
     right: 3vw;
     top: 35vh;
+    background-color: #663100;
+    cursor:pointer;
+    border-radius: 10px;
 }
 
 #puzzle {
-    border: 1px solid black;
+    border: 2px solid #301700;
     width: 43vw;
     height: 93vh;
     position: absolute;
@@ -291,8 +294,12 @@ body{
     flex-wrap: wrap;
     margin: 3vh 0 0 3vw;
     padding: 0 0 0 0.5vw;
+    background-color: #663100;
+    border-radius: 5px;
 }
-
+.container{
+    background-color: #00052B;
+}
 .pieza {
     max-width: 7vw;
     max-height: 23vh;
@@ -306,12 +313,11 @@ body{
 }
 
 .placeholder {
-    background-color: #F2F2F2;
+    background-color: #fff1d2;
     outline: 1px solid #333;
     width: 7vw;
     height: 23vh;
     transition: 1s;
-    
 }
 
 .placeholder.hover {
@@ -357,8 +363,9 @@ body{
  .planet1{
     width: 20vw;
     height: 20vh;
-    top: 6vh;
+    top: 4vh;
     right: 9vw;
+    height: 28vh;
     position: absolute;
 } 
 

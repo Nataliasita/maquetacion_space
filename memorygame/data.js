@@ -11,17 +11,17 @@ const data = [
   
     { "id": 6, "name": "metano", "url": "../memoryGame/assets/images1/metano.jpg" },
   
-    { "id": 7, "name": "ácido sulfhídrico", "url": "../memoryGame/assets/images1/acido sulfurico.jpg" },
+    { "id": 7, "name": "ácido sulfhídrico", "url": "../memoryGame/assets/images1/acidosulfurico.jpg" },
   
     { "id": 8, "name": "temperaturas extremas", "url": "../memoryGame/assets/images1/temperaturas.jpg" },
   
     { "id": 9, "name": "hidrógeno molecular", "url": "../memoryGame/assets/images1/hidrogenoMolecular.jpg" },
   
-    { "id": 10, "name": "dióxido de carbono", "url": "../memoryGame/assets/images1/dioxido de carbono.jpg" },
+    { "id": 10, "name": "dióxido de carbono", "url": "../memoryGame/assets/images1/dioxidodecarbono.jpg" },
   
     { "id": 11, "name": "Galileo", "url": "../memoryGame/assets/images1/galileo sonda.jpg" },
   
-    { "id": 12, "name": "Cassini-Huygens", "url": "../memoryGame/assets/images1/Cassini-Huygens.jpg" }
+    { "id": 12, "name": "Cassini-Huygens", "url": "../memoryGame/assets/images1/cassini.jpg" }
 ]
 
 export default data;

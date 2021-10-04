@@ -1,4 +1,4 @@
-const tabGame = {
+const tabgame = {
     
     containerTab: (data) =>{
         
@@ -48,4 +48,4 @@ const tabGame = {
 
 };
 
-export default tabGame;
+export default tabgame;
