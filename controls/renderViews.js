@@ -48,7 +48,7 @@ export function renderHome($containerGeneral){
           function r($containerGeneral){
             document.getElementById('root').style.display ='block';
             document.querySelector('.bigContainer').style.display = "none";
-            document.getElementById("playerAvatar").setAttribute('src','./images/media_joe.png');
+            document.getElementById("playerAvatar").setAttribute('src','images/media_joe.png');
             document.getElementById("playerName").innerHTML=x;
           }
           r();
