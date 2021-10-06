@@ -16,7 +16,7 @@ const tabgame = {
                   <img id="image_p" src="./images/parejas.png" alt=""><p id="tex2">Encuentra la pareja correcta</p>
                   <button id="btnplay">PLAY</button>
                   </div> 
-                        <img id="playerAvatar" src="https://i0.wp.com/hipertextual.com/wp-content/uploads/2020/04/hipertextual-sony-quiere-que-robot-te-acompane-mientras-juegas-playstation-5-2020548344.jpg?fit=1920%2C1080&ssl=1">
+                        <img id="playerAvatar" src="">
                     
                     <p id="playerName">Nombre de Astronauta</p>
                 </div>
