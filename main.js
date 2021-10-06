@@ -4,12 +4,12 @@ const game = document.getElementById('game');
 const sidebar = document.getElementById('sidebar');
 
 
-import memorygame from './memorygame/memorygame.js'
+import memorygame from './memorygame/memorygame1.js'
 import data from "./memorygame/data.js"
 
 window.addEventListener('load', () => {
     // let startGame = false;
-    sidebar.innerHTML = memorygame.createTabGame(data);
+    sidebar.innerHTML = memorygame.createtabgame(data);
     game.innerHTML = memorygame.createBoard(data).join(" ");
     memorygame.btnPlay();
 
