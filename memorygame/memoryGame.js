@@ -1,29 +1,29 @@
-// import cardgame from './cardgame.js'
-// import {autoPlay} from './playtime.js'
-// import tabgame from './tabgame.js'
+import cardgame from './cardgame.js'
+import {autoPlay} from './playtime.js'
+import tabgame from './tabgame.js'
 
-// const memorygame = {
+const memorygame = {
 
   
-//     //PARA GENERAR EL TABLERO DE JUEGO DE LAS TARJETAS
-//     createBoard: (data) => {
-//       return cardgame.generateCards(data).sort(() => Math.random() - 0.5);
-//     },
+    //PARA GENERAR EL TABLERO DE JUEGO DE LAS TARJETAS
+    createBoard: (data) => {
+      return cardgame.generateCards(data).sort(() => Math.random() - 0.5);
+    },
 
-//     generateClicks: ()=>{
-//         cardgame.rotateCard();
-//     },
+    generateClicks: ()=>{
+        cardgame.rotateCard();
+    },
 
-//     createtabgame: (data) => {
-//       return tabgame.containerTab(data);
+    createtabgame: (data) => {
+      return tabgame.containerTab(data);
 
-//   },
+  },
 
 
-//     btnPlay: () => {
-//       autoPlay();
-//     }
+    btnPlay: () => {
+      autoPlay();
+    }
 
-// }
+}
 
-// export default memorygame;
+export default memorygame;

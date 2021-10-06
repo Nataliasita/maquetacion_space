@@ -4,7 +4,7 @@ const game = document.getElementById('game');
 const sidebar = document.getElementById('sidebar');
 
 
-import memorygame from './memorygame/memorygame1.js'
+import memorygame from './memorygame/memorygame.js'
 import data from "./memorygame/data.js"
 
 window.addEventListener('load', () => {
