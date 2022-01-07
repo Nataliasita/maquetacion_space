@@ -5,11 +5,21 @@ export function homeAmbientes() {
         height: 100vh;
         width: 100vw;
         position:absolute;
-        background-color:#00052B;
+        background-image:url('images/fondo_3.png');
+        background-size:100% 100%;
+        background-position:center;
+        background-repeat:no-repeat;
         overflow-y: hidden;
         font-family: 'Orbitron', sans-serif;
         color:#FFFFFF;
         font-size:1.4em;
+    }
+    .home_am::before{
+        content:"";
+        height: 100vh;
+        width: 100vw;
+        position:absolute;
+        background-color: #00052b46;
     }
     #image_astro{
         width: 11vw;
@@ -131,7 +141,7 @@ export function homeAmbientes() {
         width: 24vw;
         height: 33vh;
         position:absolute;
-        background-image: url('./images/puzzle.png');
+        background-image: url('./images/puzz.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         bottom:14vh;
@@ -196,8 +206,7 @@ export function homeAmbientes() {
 
             <p class="name_amb2" >Recorrido Jupiter</p>
             
-            <input  type="button" id="stage_2" name="recorrido" value="">
-                <label for="stage_2"></label>
+           
         </div>
         </a>
 
@@ -213,3 +222,4 @@ export function homeAmbientes() {
         `;
     return container;
   }
+

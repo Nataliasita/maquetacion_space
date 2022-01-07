@@ -5,11 +5,11 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
+    overflow: hidden;
 }
 .bigContainer{
   width:100vw;
   height:100vh;
-  background-color: brown;
 }
 .home1{
     height: 100px;
@@ -273,13 +273,13 @@ body{
 #piezas {
     display: flex;
     flex-wrap: wrap;
-    width: 48vw;
+    width: 41vw;
     height: 60vh;
     margin: auto;
     justify-content: center;
     position: absolute;
-    right: 3vw;
-    top: 35vh;
+    right: 10vw;
+    top: 36.5vh;
     background-color: #663100;
     cursor:pointer;
     border-radius: 10px;
@@ -292,13 +292,13 @@ body{
     position: absolute;
     display: flex;
     flex-wrap: wrap;
-    margin: 3vh 0 0 3vw;
+    margin: 3.5vh 0 0 2vw;
     padding: 0 0 0 0.5vw;
     background-color: #663100;
     border-radius: 5px;
 }
 .container{
-    background-color: #00052B;
+    background-color: #bbbbbb;
 }
 .pieza {
     max-width: 7vw;
@@ -364,8 +364,25 @@ body{
     width: 20vw;
     height: 20vh;
     top: 4vh;
-    right: 9vw;
+    right: 31vw;
     height: 28vh;
     position: absolute;
+    border-radius: 15px;
 } 
-
+.gamer_puzzle{
+    width: 20vw;
+    height: 20vh;
+    top: 4vh;
+    right: 4vw;
+    height: 28vh;
+    position: absolute;
+    background-color: #305c14;
+}
+.btn_return{
+    width: 6.5vw;
+    bottom: 8vh;
+    right: 1.5vw;
+    height: 14vh;
+    border-radius: 1000px;
+    position: absolute;
+}

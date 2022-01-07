@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel = "preconnect" href = "https://fonts.googleapis.com">   
   <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-  <link href = "https: //fonts.googleapis.com/css2? family = Presione + Inicio + 2P & display = swap "rel =" stylesheet ">
+  <link href = "https://fonts.googleapis.com/css2? family = Presione + Inicio + 2P & display = swap "rel =" stylesheet ">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <link type="image/x-icon" href="images/nave.png" rel="icon"/>
   <title>X-plorer Jupiter Game</title>
@@ -29,19 +29,26 @@
       <div id="game"></div>
     </div>
     
-    <main class="main_puzzle" style="display: none;">
+    <!-- <main class="main_puzzle" style="display: none;">
       <h2 id="title_rompe">Mision Rompecabezas Espacial</h2>
       <a class="cambio_vistapf" href="">Facil</a>
       <a class="cambio_vistap" href="">Intermedio</a>
       <button class="cambio_vistap" id="j_p" href="">Avanzado</button>
-  </main>
+  </main> -->
 
 
 <div class="container" id="avanzado" style="display: none;" >
   <img class="planet1" src="./recursos/jupiter.jpg" alt="">
+  <div class="gamer_puzzle">
+    <p id="gamer"></p>
+    <img id="gamer_img" src="" alt="">
+    <p class="descripcion_puzz">Mision <br> Rompecabezas Espacial <br>Jupiter 24 piezas</p>
+  </div>
+  <button class="btn_return" id="return_main"></button>
   <div id="puzzle"></div>
   <div id="piezas"></div>
 </div>
+
 
 
 
