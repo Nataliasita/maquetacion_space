@@ -399,7 +399,16 @@ body{
     background-color: #00052B;
     border:0;
     position: absolute;
+  
 }
+.btn_return:hover{
+    background-image: url('images/flecha2.png');
+    background-color: #010b58;
+    cursor: pointer;
+    transform: rotate(-23deg);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
 #gamer{
     position: absolute;
     right: 1.6vw;

@@ -6,7 +6,7 @@ import { home1 }from '../components/home1.js'
 import { homeInit } from '../components/homeInit.js';
 import { personajes} from '../components/personajes.js';
 import { homeAmbientes } from '../components/ambientes.js';
-
+import { modal_return } from '../components/modal.js';
 
 
 export function renderHome($containerGeneral){
@@ -70,12 +70,23 @@ export function renderHome($containerGeneral){
        let cambio_ambiente3= document.querySelector('.btn_puzzle');
        cambio_ambiente3.onclick= function(){
        document.querySelector(".home_am").style.display = "none";
-      
+        var contain_puzz= document.querySelector('.container');
+
        function r($containerGeneral){
         document.querySelector('.container').style.display ='block';
         document.querySelector('.bigContainer').style.display = "none";
         document.getElementById("gamer_img").setAttribute('src','images/media_joe.png');
         document.getElementById("gamer").innerHTML=x;
+        var contain_puzzle=document.querySelector('.container');
+
+        let btn_modal=document.getElementById('return_main');
+        btn_modal.addEventListener('click', ()=>{
+          contain_puzzle.innerHTML+=modal_return();
+
+        })
+
+
+
       }
       r();
               
@@ -220,6 +231,11 @@ export function renderHome($containerGeneral){
        
        document.querySelector('#gamer_img').setAttribute('src','images/media_rover.png');
           document.getElementById("gamer").innerHTML=x;
+
+
+
+
+
      }
      r();
     }
