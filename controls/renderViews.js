@@ -9,6 +9,7 @@ import { homeAmbientes } from '../components/ambientes.js';
 import { modal_return } from '../components/modal.js';
 
 
+
 export function renderHome($containerGeneral){
   Menu($containerGeneral);
   $containerGeneral.innerHTML +=homeInit();
@@ -50,6 +51,44 @@ export function renderHome($containerGeneral){
             document.querySelector('.bigContainer').style.display = "none";
             document.getElementById("playerAvatar").setAttribute('src','images/media_joe.png');
             document.getElementById("playerName").innerHTML=x;
+
+
+            // CAMBIO MODAL //
+
+            
+            let btn_modal2=document.getElementById('return_main2');
+            btn_modal2.addEventListener('click', ()=>{
+
+            
+            var contain_target=document.getElementById('root');
+            contain_target.innerHTML+=modal_return();
+
+            document.querySelector('.modal_puzz').style.display ='block';
+
+            var modal_ok=document.getElementById('btn_modal_1');
+            modal_ok.addEventListener('click', ()=>{
+            document.getElementById('root').style.display ='none';
+            document.querySelector('.bigContainer').style.display = "block";
+            document.querySelector(".home_am").style.display = "block";
+            document.querySelector('.modal_puzz').style.display ='none';
+
+             })
+    
+            var modal_none=document.getElementById('btn_modal_2');
+              modal_none.addEventListener('click', ()=>{
+              document.querySelector('.modal_puzz').style.display ='none';
+    
+            })
+    
+            })
+            
+
+
+
+
+
+
+
           }
           r();
                     function MyTest2() {

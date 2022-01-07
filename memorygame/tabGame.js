@@ -17,7 +17,7 @@ const tabgame = {
                   <button id="btnplay">PLAY</button>
                   </div> 
                         <img id="playerAvatar" src="">
-                    
+                        <button class="btn_return2" id="return_main2"></button>
                     <p id="playerName">Nombre de Astronauta</p>
                 </div>
                 <div class="containerDescription">

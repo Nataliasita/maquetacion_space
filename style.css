@@ -79,12 +79,12 @@ body{
     border-radius: 1000px; 
     position: absolute;
     top:2vh;
-    left: 7.5vw;
+    left: 9vw;
 }
 #playerName{
     position: absolute;
     top:25.5vh;
-    left: 8vw;
+    left: 9vw;
     width: 11vw;
     text-align: center;
 
@@ -249,8 +249,10 @@ body{
     height: 100vh;
     left: 0vw;
     z-index: 2;
-    background-color: rgba(51, 51, 51, 0.774);
+    background-color: rgba(70, 70, 70, 0.671);
+    backdrop-filter: blur(2px);
     padding: 0.6em;
+
 }
 #image_p{
     position:absolute ;
@@ -387,10 +389,10 @@ body{
     font-family: 'Orbitron', sans-serif;
 }
 .btn_return{
-    width: 5.5vw;
+    width: 5vw;
     bottom: 6vh;
     right: 1.5vw;
-    height: 12vh;
+    height: 11vh;
     border-radius: 1000px;
     background-image: url('images/flecha.png');
     background-position: center ;
@@ -433,4 +435,27 @@ body{
     background-color: #50505025;
     border-radius: 10px;
     backdrop-filter: blur(10px);
+}
+.btn_return2{
+    width: 5vw;
+    top: 10vh;
+    left: 1.5vw;
+    height: 11vh;
+    border-radius: 1000px;
+    background-image: url('images/flecha.png');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-color: #00052B;
+    border:0;
+    position: absolute;
+    transform: rotate(180deg);
+  
+}
+.btn_return2:hover{
+    background-image: url('images/flecha2.png');
+    background-color: #010b58;
+    cursor: pointer;
+    transform: rotate(200deg);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }

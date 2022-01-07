@@ -7,6 +7,7 @@ export function modal_return(){
         top:0;
         position:absolute;
         background-color: #00052b6b;
+        backdrop-filter: blur(2px);
         display:flex;
         flex-direction: column;
         font-family: 'Orbitron', sans-serif;

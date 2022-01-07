@@ -66,6 +66,7 @@ export function homeAmbientes() {
         top:20vh;
         position:absolute;
         background-color: rgba(0, 7, 49, 0.644);
+        backdrop-filter: blur(2px);
         padding:2.5vh 0 0 2vw;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
@@ -114,6 +115,7 @@ export function homeAmbientes() {
         padding:2.5vh 0 0 4vw;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
+        backdrop-filter: blur(2px);
 
     }
     .ambiente_recorrido:hover{
@@ -155,6 +157,7 @@ export function homeAmbientes() {
         height:10vh;
         width: 24vw;
         top:20vh;
+        backdrop-filter: blur(2px);
         position:absolute;
         background-color: rgba(0, 7, 49, 0.644);
         padding:2.5vh 0 0 1vw;
