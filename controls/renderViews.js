@@ -74,7 +74,8 @@ export function renderHome($containerGeneral){
        function r($containerGeneral){
         document.querySelector('.container').style.display ='block';
         document.querySelector('.bigContainer').style.display = "none";
-        
+        document.getElementById("gamer_img").setAttribute('src','images/media_joe.png');
+        document.getElementById("gamer").innerHTML=x;
       }
       r();
               
@@ -158,6 +159,8 @@ export function renderHome($containerGeneral){
        document.querySelector('.container').style.display ='block';
        document.querySelector('.bigContainer').style.display = "none";
        
+       document.getElementById("gamer_img").setAttribute('src','images/media_lili.png');
+        document.getElementById("gamer").innerHTML=x;
      }
      r();
     }
@@ -215,6 +218,8 @@ export function renderHome($containerGeneral){
        document.querySelector('.container').style.display ='block';
        document.querySelector('.bigContainer').style.display = "none";
        
+       document.querySelector('#gamer_img').setAttribute('src','images/media_rover.png');
+          document.getElementById("gamer").innerHTML=x;
      }
      r();
     }

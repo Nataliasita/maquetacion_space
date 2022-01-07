@@ -37,6 +37,7 @@ body{
 #sidebar{
     width:27vw;
     background: #696969;
+    background: linear-gradient(#696969, #ececec);
     position: absolute;
     top:0;
     height: 100vh;
@@ -84,6 +85,9 @@ body{
     position: absolute;
     top:25.5vh;
     left: 8vw;
+    width: 11vw;
+    text-align: center;
+
 }
 /* @supports(object-fit: cover){
     #playerAvatar img{
@@ -361,28 +365,63 @@ body{
     overflow-x: hidden;
 }
  .planet1{
-    width: 20vw;
-    height: 20vh;
+    height: 25vh;
     top: 4vh;
-    right: 31vw;
+    right: 37.2vw;
     height: 28vh;
     position: absolute;
     border-radius: 15px;
 } 
 .gamer_puzzle{
-    width: 20vw;
+    width: 35vw;
     height: 20vh;
     top: 4vh;
-    right: 4vw;
+    right: 0;
     height: 28vh;
+    display: flex;
     position: absolute;
-    background-color: #305c14;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 200px;
+    background: linear-gradient(#636363, #ebf8e1, #757575);
+    color:#ffffff;
+    font-family: 'Orbitron', sans-serif;
 }
 .btn_return{
-    width: 6.5vw;
-    bottom: 8vh;
+    width: 5.5vw;
+    bottom: 6vh;
     right: 1.5vw;
-    height: 14vh;
+    height: 12vh;
     border-radius: 1000px;
+    background-image: url('images/flecha.png');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-color: #00052B;
+    border:0;
     position: absolute;
+}
+#gamer{
+    position: absolute;
+    right: 1.6vw;
+    width: 11vw;
+    bottom: 0.5vh;
+    text-align: center;
+}
+#gamer_img{
+    position: absolute;
+    height: 18vh;
+    right: 3vw;
+    top:2vh;
+}
+.descripcion_puzz{
+    width: 15vw;
+    height: 16vh;
+    position: absolute;
+    left: 6.3vw;
+    top:2.5vh;
+    padding-top: 1.5vh;
+    text-align: center;
+    background-color: #50505025;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
 }
