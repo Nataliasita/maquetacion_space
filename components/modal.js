@@ -25,6 +25,9 @@ export function modal_return(){
         background-color: #00052B;
         text-align: center;
         border-radius: 20px;
+        position:absolute;
+        left:25vw;
+        top:15vw;
     }
     .mesagge_btn{
         height: 11vh;
@@ -82,7 +85,7 @@ export function modal_return(){
     
     </style>
 
-    <div class="modal_puzz">
+    <div class="modal_puzz" style="display:none;">
             <div class="mesagge">
                 <h2 class="title-modal"> Atencion astronauta !!!!!!!!</h2>
                     <p class="description_modal">Recuerda que si te vas en este momento no podras recuperar el avance <br><br>¿ Estas seguro de abandonar la mision ?</p>

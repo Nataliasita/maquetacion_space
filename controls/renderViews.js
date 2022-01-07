@@ -70,18 +70,34 @@ export function renderHome($containerGeneral){
        let cambio_ambiente3= document.querySelector('.btn_puzzle');
        cambio_ambiente3.onclick= function(){
        document.querySelector(".home_am").style.display = "none";
-        var contain_puzz= document.querySelector('.container');
+        
 
        function r($containerGeneral){
         document.querySelector('.container').style.display ='block';
         document.querySelector('.bigContainer').style.display = "none";
         document.getElementById("gamer_img").setAttribute('src','images/media_joe.png');
         document.getElementById("gamer").innerHTML=x;
+        // var contain_puzz= document.querySelector('.modal_puzz');
+        // contain_puzz.style.display="none";
         var contain_puzzle=document.querySelector('.container');
-
+        contain_puzzle.innerHTML+=modal_return();
         let btn_modal=document.getElementById('return_main');
         btn_modal.addEventListener('click', ()=>{
-          contain_puzzle.innerHTML+=modal_return();
+      
+        document.querySelector('.modal_puzz').style.display ='block';
+        var modal_ok=document.getElementById('btn_modal_1');
+        modal_ok.addEventListener('click', ()=>{
+        document.querySelector('.container').style.display ='none';
+        document.querySelector('.bigContainer').style.display = "block";
+        document.querySelector(".home_am").style.display = "block";
+        document.querySelector('.modal_puzz').style.display ='none';
+         })
+
+        var modal_none=document.getElementById('btn_modal_2');
+          modal_none.addEventListener('click', ()=>{
+          document.querySelector('.modal_puzz').style.display ='none';
+
+        })
 
         })
 
@@ -172,6 +188,29 @@ export function renderHome($containerGeneral){
        
        document.getElementById("gamer_img").setAttribute('src','images/media_lili.png');
         document.getElementById("gamer").innerHTML=x;
+
+        var contain_puzzle=document.querySelector('.container');
+        contain_puzzle.innerHTML+=modal_return();
+        let btn_modal=document.getElementById('return_main');
+        btn_modal.addEventListener('click', ()=>{
+      
+        document.querySelector('.modal_puzz').style.display ='block';
+        var modal_ok=document.getElementById('btn_modal_1');
+        modal_ok.addEventListener('click', ()=>{
+        document.querySelector('.container').style.display ='none';
+        document.querySelector('.bigContainer').style.display = "block";
+        document.querySelector(".home_am").style.display = "block";
+        document.querySelector('.modal_puzz').style.display ='none';
+         })
+
+        var modal_none=document.getElementById('btn_modal_2');
+          modal_none.addEventListener('click', ()=>{
+          document.querySelector('.modal_puzz').style.display ='none';
+
+        })
+
+        })
+
      }
      r();
     }
@@ -232,10 +271,28 @@ export function renderHome($containerGeneral){
        document.querySelector('#gamer_img').setAttribute('src','images/media_rover.png');
           document.getElementById("gamer").innerHTML=x;
 
-
-
-
-
+          var contain_puzzle=document.querySelector('.container');
+          contain_puzzle.innerHTML+=modal_return();
+          let btn_modal=document.getElementById('return_main');
+          btn_modal.addEventListener('click', ()=>{
+        
+          document.querySelector('.modal_puzz').style.display ='block';
+          var modal_ok=document.getElementById('btn_modal_1');
+          modal_ok.addEventListener('click', ()=>{
+          document.querySelector('.container').style.display ='none';
+          document.querySelector('.bigContainer').style.display = "block";
+          document.querySelector(".home_am").style.display = "block";
+          document.querySelector('.modal_puzz').style.display ='none';
+           })
+  
+          var modal_none=document.getElementById('btn_modal_2');
+            modal_none.addEventListener('click', ()=>{
+            document.querySelector('.modal_puzz').style.display ='none';
+  
+          })
+  
+          })
+  
      }
      r();
     }
